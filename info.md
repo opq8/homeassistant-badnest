@@ -1,11 +1,14 @@
 # badnest
 
-A bad Nest integration. This is a second revival of the project for my personal HA instance. My fork is from [therealryanbonham](https://github.com/therealryanbonham/badnest), although original project was created and now deleted by [USA-RedDragon](https://github.com/USA-RedDragon). The name comes from the original author. Another great fork that supports nest protect (does not contain motion sensor capabilities) is the one from [sgowal](https://github.com/sgowal/badnest)
+A bad Nest integration. 
 
-## What changed in fork ?
-I only own Nest protect, so that's the device that I refactored and maintain atm 
-- added bunch of binary sensors like motion detection, house occupancy, health status
-- included attributes (replacement and manufacturing dates, serial number etc.)
+
+## This Fork (opq8)
+
+- Original project was created and now deleted by [USA-RedDragon](https://github.com/USA-RedDragon). The name of the integration comes from the original author.
+- First revival of the project was by [therealryanbonham](https://github.com/therealryanbonham/badnest).
+- Second revival of the project was by [OscarHanzely](https://github.com/OscarHanzely/badnest) and includes refactor, added binary sensors (motion detection, house occupancy, health status) and added attributes (replacement and manufacturing dates, serial number etc.) centered around Nest Protect.
+- Also includes minor changes from [MSkjel](https://github.com/MSkjel/badnest).
 
 ## Features
 
@@ -69,3 +72,5 @@ displayed by the integration is correct, just _more exact_ than what is shown in
 ## Acknowledgements
 
 - https://github.com/therealryanbonham/badnest
+- https://github.com/OscarHanzely/badnest
+- https://github.com/MSkjel/badnest

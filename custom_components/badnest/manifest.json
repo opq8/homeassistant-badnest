@@ -1,10 +1,10 @@
 {
     "domain": "badnest",
     "name": "Bad Nest (A hack around the Nest component to pull from their api)",
-    "documentation": "https://github.com/OscarHanzely/badnest/blob/master/info.md",
+    "documentation": "https://github.com/opq8/badnest/blob/master/info.md",
     "dependencies": [],
-    "codeowners": ["@OscarHanzely","@therealryanbonham","@USA-RedDragon"],
+    "codeowners": ["opq8","MSkjel","@OscarHanzely","@therealryanbonham","@USA-RedDragon"],
     "requirements": [],
     "iot_class": "cloud_polling",
-    "version": "5.0.0"
+    "version": "6.0.0"
 }
