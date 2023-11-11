@@ -11,6 +11,7 @@ from .const import (
     SENSOR_BATTERY_HEALTH,
     SENSOR_BATTERY_LEVEL,
     SENSOR_TEMPERATURE,
+    SENSOR_MOTION_DETECTED,
 )
 
 from homeassistant.const import (
@@ -26,6 +27,7 @@ PROTECT_SENSOR_TYPES = [
     SENSOR_HEAT_STATUS,
     SENSOR_BATTERY_HEALTH,
     SENSOR_BATTERY_LEVEL,
+    SENSOR_MOTION_DETECTED,
 ]
 
 friendly_names = {
@@ -34,6 +36,7 @@ friendly_names = {
     SENSOR_HEAT_STATUS : "Heat Level",
     SENSOR_BATTERY_HEALTH : "Battery Health",
     SENSOR_BATTERY_LEVEL : "Battery Level",
+    SENSOR_MOTION_DETECTED : "Motion Detected",
 }
 
 async def async_setup_platform(hass,
