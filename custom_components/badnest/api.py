@@ -278,6 +278,8 @@ class NestAPI():
                         sensor_data['battery_health_state']
                     self.device_data[sn]['battery_level'] = \
                         sensor_data['battery_level']
+                    self.device_data[sn]["motion_detected"] = \
+                        sensor_data["auto_away"]
                     self.device_data[sn]['auto_away'] = \
                         sensor_data['auto_away']
                     self.device_data[sn]['line_power_present'] = \
